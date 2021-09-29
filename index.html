@@ -1,0 +1,35 @@
+<html>
+    <head>
+        <link rel="preconnect" href="https://fonts.googleapis.com">
+        <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+        <link href="https://fonts.googleapis.com/css2?family=Karla:wght@500&display=swap" rel="stylesheet">
+        <link rel="stylesheet" href="index.css">
+    </head>
+    <body>
+        <form id="gradient" class="gradient">
+            <div>
+                <label for="picker-1">Color 1:</label>
+                <input id="picker-1" type="color" name="color1" value="#28C9D7"/>
+            </div>
+            <div>
+                <label for="picker-2">Color 2:</label>
+                <input id="picker-2" type="color" name="color2" value="#D025AB"/>
+            </div>
+            <div>
+                <label for="picker-3">Color 3:</label>
+                <input id="picker-3" type="color" name="color3" value="#B0A519"/>
+            </div>
+            <div>
+            <label for="split">Split:</label>
+            <input value=180 type="range" id="split" name="split" min="0" max="360">
+            </div>
+            <div>
+            <label for="opacity">Opacity:</label>
+            <input value=50 type="range" id="opacity" name="opacity" min="0" max="100">
+            </div>
+        </form>
+        <br />
+         <button id="sup-button">Suprise Me!</button>
+        <script src="index.pack.js"></script>
+    </body>
+</html>
